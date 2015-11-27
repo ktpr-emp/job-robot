@@ -4,4 +4,4 @@ python:
   - 2.7
 
 script:
-  - python job-robot/tests/test_list.py
+  - nosetests -v job-robot/tests/test_list.py
