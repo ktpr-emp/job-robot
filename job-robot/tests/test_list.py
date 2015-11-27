@@ -8,10 +8,10 @@ class TestList(object):
         numbers = xrange(10)                                                                                 
         eq_(len(numbers), 10)                                                                                
         assert max(numbers) == 9                                                                             
-        assert_equal(sum(numbers), 111)                                                                       
+        assert_equal(sum(numbers), 45)                                                                       
 
 def test_list():                                                                                             
     numbers = xrange(10)                                                                                     
     assert_equal(len(numbers), 10)                                                                           
-    assert_equal(max(numbers), 1)                                                                            
-    assert_equal(sum(numbers), 2)
+    assert_equal(max(numbers), 9)                                                                            
+    assert_equal(sum(numbers), 45)
